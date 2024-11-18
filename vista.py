@@ -24,7 +24,6 @@ class VistaTrabajador(Frame):
         scrollbar.pack(side="right", fill="y")
 
         Button(self, text="Cargar Datos", command=self.mostrar_datos).pack(pady=5)
-        Button(self, text="Calcular Riesgo", command=self.controlador.calcular_riesgo).pack(pady=5)
         Button(self, text="Agregar trabajador", command=self.abrir_formulario_agregar).pack(pady=5)
         Button(self, text="Exportar Reporte", command=self.exportar_reporte).pack(pady=5)
 
